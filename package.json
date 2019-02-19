@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "An Oracle JavaScript Extension Toolkit(JET) web app",
   "dependencies": {
-    "@oracle/oraclejet": "~6.1.0"
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
   },
   "scripts": {
-    "start" : "node index.js"
+    "start": "node index.js"
   },
   "devDependencies": {
     "grunt": "^1.0.1",
