@@ -68,7 +68,7 @@ require(['ojs/ojcore', 'knockout', 'jquery', 'ojs/ojknockout','ojs/ojchart'],
                            {name: "Series 2", items: [32, 39, 36, 27, 20], assignedToY2: "on"}];
     
       
-        var dualYGroups = ["F&B", "Entertainmnet", "Travel", "Shopping","Miscellaneous"];    
+        var dualYGroups = ["F&B", "Entertainment", "Travel", "Shopping","Miscellaneous"];    
    
         self.barSeriesValue = ko.observableArray(dualYSeries);
         self.barGroupsValue = ko.observableArray(dualYGroups);
