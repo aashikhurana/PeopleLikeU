@@ -8,7 +8,7 @@ console.log("getting index.html");
 
 app.get('/', function(req, res){
 	console.log("rendering index.html");
-    res.render('index.html');
+    res.render('index.html', { root : VIEWS });
 });
 
 var port = process.env.PORT || 3000; 
